@@ -19,7 +19,7 @@ predicate isTest(Function test) {
 }
 
 /**
- * Holds if `caller` contains a call to a function named "pressActionKey".
+ * Holds if 'caller' contains a call to a pressActionKey function.
  */
 predicate callsPressActionKey(Function caller) {
   exists(DataFlow::CallNode call |
